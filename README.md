@@ -42,7 +42,7 @@ The quadratic reward function, $r = -(\theta^2 + 0.1 \dot{\theta}^2)$, penalizes
 
 **Value Function and Optimal Policy (Quadratic)**
 *(The value function forms a smooth "bowl," indicating a preference for the (0,0) state. The policy provides smooth, proportional control.)*
-
+![Optimal Policy (gamma=0.9)](figures/1.png)
 
 **Demonstration Video (Quadratic Policy)**
 *(The video shows the pendulum quickly stabilizing to the upright position and maintaining it smoothly.)*
@@ -59,7 +59,7 @@ The binary reward function, $r=1$ if $|\theta| \le 12^\circ$ and $r=0$ otherwise
 
 **Value Function and Optimal Policy (Binary)**
 *(The value function is a flat "plateau" in the safe region, offering no incentive to stay centered. This leads to a "bang-bang" policy that oscillates wildly.)*
-
+![Optimal Policy (gamma=0.9)](figures/2.png)
 
 **Demonstration Video (Binary Policy)**
 *(The video shows the pendulum oscillating and quickly losing control, as the policy only acts aggressively near the boundaries.)*
